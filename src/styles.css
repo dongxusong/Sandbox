@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+/* Header/Blog Title */
+header {
+  padding: 30px;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1),
+    rgba(255, 0, 0, 1),
+    rgba(255, 0, 0, 0)
+  );
+}
+header h1 {
+  font-size: 68px;
+}
+footer {
+  padding: 30px;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 0, 0),
+    rgba(255, 255, 0, 1),
+    rgba(255, 255, 0, 1),
+    rgba(255, 255, 0, 0)
+  );
+}
+footer h2 {
+  font-size: 62px;
+}
+body {
+  padding: 10px;
+  background: #f1f1f1;
+}
